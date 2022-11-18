@@ -61,6 +61,7 @@ class Myupbit():
             my_account.sell_market_order(symbol, amount)
             self.is_buy = False
             print(f"{symbol} 3%손실매도")
+            sleep(20)
 
 
 go = Myupbit()
